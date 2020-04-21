@@ -14,6 +14,7 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 
 import { BoosterComponent } from '../components/booster/booster.component';
 import { DoughnutgraphicComponent } from '../components/doughnutgraphic/doughnutgraphic.component';
+import { AccountSettingsComponent } from './account-settings/account-settings.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { DoughnutgraphicComponent } from '../components/doughnutgraphic/doughnut
     Graphics1Component,
     ProgressComponent,
     BoosterComponent,
-    DoughnutgraphicComponent
+    DoughnutgraphicComponent,
+    AccountSettingsComponent
   ],
   exports: [
     DashboardComponent,
