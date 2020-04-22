@@ -20,7 +20,7 @@ export class SettingsService {
     this.setSettings();
   }
 
-  public loadDataConfig() {
+  public loadDataConfig(): void{
     const data = localStorage.getItem(this.localId);
     if (data !== null) {
       this.data = JSON.parse(data);
@@ -38,8 +38,6 @@ export class SettingsService {
 
   setSettings() {
     const style: any = document.getElementById(`currentTheme`);
-    console.log('style: ', style);
-    console.log('this.data: ', this.data.urlTheme);
     style.href = this.data.urlTheme;
   }
 }

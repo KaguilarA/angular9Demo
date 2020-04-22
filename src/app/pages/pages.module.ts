@@ -15,6 +15,8 @@ import { DashboardComponent } from './dashboard/dashboard.component';
 import { BoosterComponent } from '../components/booster/booster.component';
 import { DoughnutgraphicComponent } from '../components/doughnutgraphic/doughnutgraphic.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromisesComponent } from './promises/promises.component';
+import { RxjsComponent } from './rxjs/rxjs.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +26,9 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
     ProgressComponent,
     BoosterComponent,
     DoughnutgraphicComponent,
-    AccountSettingsComponent
+    AccountSettingsComponent,
+    PromisesComponent,
+    RxjsComponent
   ],
   exports: [
     DashboardComponent,
