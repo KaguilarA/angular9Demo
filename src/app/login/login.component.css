@@ -8,6 +8,11 @@
   position: fixed;
 }
 
+.register-box {
+  width: 800px;
+  margin: 0 auto;
+}
+
 .login-box {
   width: 400px;
   margin: 0 auto;
